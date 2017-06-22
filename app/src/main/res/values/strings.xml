@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalCounter</string>
+    <string name="main_title">CalCounter</string>
+    <string name="main_food">What did you eat?</string>
+    <string name="main_cal">How many calories?</string>
+    <string name="main_button">Submit</string>
+
+</resources>
