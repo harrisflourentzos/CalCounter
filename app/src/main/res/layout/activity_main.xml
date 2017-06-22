@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#82cd50"
+    android:background="#584691"
     tools:context="app.calcounterapplication.com.calcounter.MainActivity">
 
     <TextView

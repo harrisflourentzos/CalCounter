@@ -5,4 +5,8 @@
     <string name="main_cal">How many calories?</string>
     <string name="main_button">Submit</string>
 
+    <string name="display_foods_totalCalories">Total Calories:</string>
+    <string name="display_foods_foodItems">Food Items:</string>
+
+
 </resources>
