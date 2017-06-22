@@ -8,5 +8,6 @@
     <string name="display_foods_totalCalories">Total Calories:</string>
     <string name="display_foods_foodItems">Food Items:</string>
 
-
+    <string name="food_details_calories">Calories:</string>
+    <string name="food_details_button_share">Share!</string>
 </resources>
