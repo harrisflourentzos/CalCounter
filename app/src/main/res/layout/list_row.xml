@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/listRowFoodNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Food Name" />
+
+    <TextView
+        android:id="@+id/listRowDateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/listRowFoodNameId"
+        android:layout_marginTop="10dp"
+        android:text="Date" />
+
+    <ImageView
+        android:id="@+id/listRowimageViewId"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/listRowDateId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/fruit" />
+
+    <TextView
+        android:id="@+id/listRowCaloriesId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="#7e44e3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/listRowimageViewId"
+        android:layout_marginTop="20dp"
+        android:text="120" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/listRowCaloriesId"
+        android:layout_alignBaseline="@+id/listRowCaloriesId"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="cal" />
+
+    <ImageView
+        android:id="@+id/listRowPointerId"
+        android:background="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</RelativeLayout>
