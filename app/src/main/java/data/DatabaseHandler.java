@@ -98,6 +98,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         dba.insert(Constants.TABLE_NAME, null, values);
 
+        Log.v("food item added!", "goleba");
+
         dba.close();
     }
 
