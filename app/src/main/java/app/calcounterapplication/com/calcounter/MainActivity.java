@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EdgeEffect;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseHandler dba;
     private EditText foodName, foodCalories;
     private Button submitButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 saveOnDatabase();
             }
         });
+
     }
 
     private void saveOnDatabase() {
@@ -57,6 +60,6 @@ public class MainActivity extends AppCompatActivity {
         foodCalories.setText("");
 
         //take users to the ListView of the submitted foods:
-//        startActivity(new Intent(MainActivity.this, DisplayFoods.class));
+        startActivity(new Intent(MainActivity.this, DisplayFoods.class));
     }
 }

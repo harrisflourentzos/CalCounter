@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/mainTitleId" />
 
     <LinearLayout
-        android:background="@drawable/background"
+        android:background="#f8f8f9"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:gravity="center_horizontal"
